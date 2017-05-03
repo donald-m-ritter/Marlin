@@ -396,7 +396,7 @@
 #define MICROSTEP_MODES {16,16,16,16,16} // [1,2,4,8,16]
 
 // Motor Current setting (Only functional when motor driver current ref pins are connected to a digital trimpot on supported boards)
-#define DIGIPOT_MOTOR_CURRENT {135,135,135,135,135} // Values 0-255 (RAMBO 135 = ~0.75A, 185 = ~1A)
+#define DIGIPOT_MOTOR_CURRENT {155,155,155,155,155} // Values 0-255 (RAMBO 135 = ~0.75A, 185 = ~1A)
 
 // Motor Current controlled via PWM (Overridable on supported boards with PWM-driven motor driver current)
 //#define PWM_MOTOR_CURRENT {1300, 1300, 1250} // Values in milliamps
